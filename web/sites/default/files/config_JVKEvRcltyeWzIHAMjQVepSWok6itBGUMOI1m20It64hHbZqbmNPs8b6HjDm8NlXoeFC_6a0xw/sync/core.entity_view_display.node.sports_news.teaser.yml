@@ -1,0 +1,32 @@
+uuid: af1bee71-3b4a-4996-bf7c-9350c4e480d1
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.sports_news.field_date
+    - field.field.node.sports_news.field_king
+    - field.field.node.sports_news.field_link
+    - field.field.node.sports_news.field_news_image
+    - field.field.node.sports_news.field_text
+    - field.field.node.sports_news.field_youtube
+    - node.type.sports_news
+  module:
+    - user
+id: node.sports_news.teaser
+targetEntityType: node
+bundle: sports_news
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_date: true
+  field_king: true
+  field_link: true
+  field_news_image: true
+  field_text: true
+  field_youtube: true

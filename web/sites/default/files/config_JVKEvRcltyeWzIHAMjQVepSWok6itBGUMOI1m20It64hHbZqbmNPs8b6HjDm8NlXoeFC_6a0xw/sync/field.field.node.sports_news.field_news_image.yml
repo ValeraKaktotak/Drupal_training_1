@@ -1,0 +1,38 @@
+uuid: 7e8ab88e-9dda-47d4-a095-d66c6f266a8f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_news_image
+    - node.type.sports_news
+  module:
+    - image
+id: node.sports_news.field_news_image
+field_name: field_news_image
+entity_type: node
+bundle: sports_news
+label: Image
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: 1e392317-fa98-46c6-a015-7a13912a8225
+    alt: ''
+    title: ''
+    width: 270
+    height: 196
+field_type: image
