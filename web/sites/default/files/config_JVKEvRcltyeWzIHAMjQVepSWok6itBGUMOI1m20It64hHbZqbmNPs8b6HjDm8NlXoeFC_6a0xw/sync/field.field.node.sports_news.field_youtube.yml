@@ -1,0 +1,21 @@
+uuid: 651deadc-13a7-45fc-8d9b-53d3b0d4d183
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_youtube
+    - node.type.sports_news
+  module:
+    - youtube
+id: node.sports_news.field_youtube
+field_name: field_youtube
+entity_type: node
+bundle: sports_news
+label: Youtube
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: youtube
