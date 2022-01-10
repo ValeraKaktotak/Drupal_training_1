@@ -1,0 +1,31 @@
+uuid: 0ca15581-03ba-47bf-99d8-f5c29bc4b025
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_king
+    - node.type.sports_news
+    - taxonomy.vocabulary.kinds_of_sports
+    - taxonomy.vocabulary.tags
+id: node.sports_news.field_king
+field_name: field_king
+entity_type: node
+bundle: sports_news
+label: King
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      kinds_of_sports: kinds_of_sports
+      tags: tags
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: kinds_of_sports
+field_type: entity_reference
