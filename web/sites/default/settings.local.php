@@ -154,7 +154,7 @@ $settings['skip_permissions_hardening'] = TRUE;
  */
 # $settings['config_exclude_modules'] = ['devel', 'stage_file_proxy'];
 $settings['trusted_host_patterns'] = [
-  '^localhost$',
-  '127\.0\.0\.1',
+#  '^localhost$',
+#  '127\.0\.0\.1',
   '^valera.backend-education.hulk.nixdev.co/$'
 ];
