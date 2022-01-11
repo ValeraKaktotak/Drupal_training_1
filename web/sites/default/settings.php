@@ -771,7 +771,7 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
  }
 $databases['default']['default'] = array (
   'database' => 'valera_drupal',
-  'username' => 'valera_db',
+  'username' => 'valera_dp',
   'password' => '11111',
   'prefix' => '',
   'host' => 'localhost',
