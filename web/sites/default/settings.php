@@ -779,5 +779,5 @@ $databases['default']['default'] = array (
   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
   'driver' => 'mysql',
 );
-$settings['config_sync_directory'] = 'sites/default/files/config_JVKEvRcltyeWzIHAMjQVepSWok6itBGUMOI1m20It64hHbZqbmNPs8b6HjDm8NlXoeFC_6a0xw/sync';
+$settings['config_sync_directory'] = './../config-export';
 $settings['rebuild_access'] = FALSE;
