@@ -1,0 +1,9 @@
+name: Drupal News
+type: theme
+description: 'Drupalnews template'
+core_version_requirement: ^9
+base theme: false
+
+libraries:
+  - drupalnews/bootstrap
+  - drupalnews/custom
