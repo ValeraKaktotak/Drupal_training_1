@@ -1,3 +1,19 @@
 body{
-  background: aqua;
+  background: #d1dce7;
+}
+.container{
+  background: #e5ebf1;
+}
+.container .header{
+  background: #e4e7e9;
+}
+.container .left-sidebar{
+  background: #badaef;
+}
+.container .footer{
+  background: #e4e7e9;
+}
+.container .sport-img{
+  height: 100%;
+  max-height: 300px;
 }

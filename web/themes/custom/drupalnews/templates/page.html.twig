@@ -1,0 +1,25 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 header">
+      {{ page.header }}
+    </div>
+  </div>
+  <div class="row">
+    {% block image %}
+      <img class="sport-img" src="../themes/custom/drupalnews/images/bundesliga.jpg" alt="#">
+    {% endblock %}
+    {% block content %}
+    <div class="col-md-3 left-sidebar">
+      {{ page.left_sidebar }}
+    </div>
+    <div class="col-md-9 content">
+      {{ page.content }}
+    </div>
+    {% endblock %}
+  </div>
+  <div class="row">
+    <div class="col-md-12 footer">
+      {{ page.footer }}
+    </div>
+  </div>
+</div>

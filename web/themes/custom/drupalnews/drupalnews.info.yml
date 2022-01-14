@@ -7,3 +7,9 @@ base theme: false
 libraries:
   - drupalnews/bootstrap
   - drupalnews/custom
+
+regions:
+  header: 'Header'
+  content: 'Content'
+  left_sidebar: 'Left sidebar'
+  footer: 'Footer'
